@@ -12,6 +12,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "author": "lulin",
+  "license": "MIT",
   "main": "./dist/react-component.umd.js",
   "module": "./dist/react-component.es.js",
   "exports": {
@@ -19,6 +21,10 @@
       "import": "./dist/react-component.es.js",
       "require": "./dist/react-component.umd.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fegg/dm_react_component.git"
   },
   "peerDependencies": {
     "react": "^18.2.0",
